@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixelhub — Jump Dash</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: #0f1024;
+    color: #f5f6ff;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 24px 0;
+  }
+  .brand {
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+  }
+  nav a {
+    color: #b7bbe6;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 40px;
+    text-align: center;
+  }
+  .icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #2E7DFF, #7C5CFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    margin: 0 auto 24px;
+    box-shadow: 0 12px 32px rgba(46,125,255,0.35);
+  }
+  h1 {
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  .tagline {
+    margin-top: 12px;
+    font-size: 17px;
+    color: #b7bbe6;
+    line-height: 1.6;
+  }
+  .badges {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #0f1024 !important;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 12px;
+  }
+  .badge.secondary {
+    background: transparent;
+    color: #f5f6ff !important;
+    border: 1px solid #33355c;
+  }
+  .section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 24px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .feature {
+    background: #171933;
+    border: 1px solid #262952;
+    border-radius: 16px;
+    padding: 22px;
+  }
+  .feature .emoji { font-size: 26px; margin-bottom: 10px; }
+  .feature h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+  .feature p { font-size: 13.5px; color: #a7abd6; line-height: 1.5; }
+  .section h2 {
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    padding: 40px 24px 60px;
+    color: #6c6f96;
+    font-size: 13px;
+  }
+  footer a { color: #a7abd6; text-decoration: none; }
+</style>
+</head>
+<body>
+  <nav>
+    <div class="brand">Pixelhub</div>
+    <a href="/support/">Support</a>
+  </nav>
+
+  <div class="hero">
+    <div class="icon">🏃</div>
+    <h1>Jump Dash</h1>
+    <p class="tagline">A fast, one-tap endless runner. Jump, dodge, and see how far you can go — the speed never stops climbing.</p>
+    <div class="badges">
+      <a class="badge" href="#">Coming soon on the App Store</a>
+      <a class="badge secondary" href="#">Coming soon on Google Play</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Why you'll like it</h2>
+    <div class="grid">
+      <div class="feature">
+        <div class="emoji">👆</div>
+        <h3>One-tap controls</h3>
+        <p>Tap to jump. That's it. Easy to pick up in seconds, hard to put down.</p>
+      </div>
+      <div class="feature">
+        <div class="emoji">♾️</div>
+        <h3>Endless levels</h3>
+        <p>Every run is freshly generated — no two runs are ever the same.</p>
+      </div>
+      <div class="feature">
+        <div class="emoji">⚡</div>
+        <h3>Rising difficulty</h3>
+        <p>The game speeds up the longer you survive, testing your reflexes.</p>
+      </div>
+      <div class="feature">
+        <div class="emoji">🚫</div>
+        <h3>Remove ads option</h3>
+        <p>Prefer an ad-free run? A single one-time purchase removes ads for good.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Pixelhub &middot; <a href="/support/">Support</a> &middot; &copy; 2026
+  </footer>
+</body>
+</html>
